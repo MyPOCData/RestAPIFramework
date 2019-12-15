@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAPI" parallel="methods" thread-count="1">
+  <test name="AllAPIMethods">
+    <classes>
+     <class name="com.abhi.test.GetAPITest"/>
+     <class name="com.abhi.test.PostAPITest"/>
+     <class name="com.abhi.test.PutAPITest"/> 
+     <class name="com.abhi.test.DeleteAPITest"/>
+    </classes>
+  </test>
+</suite>

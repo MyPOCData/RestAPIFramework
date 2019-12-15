@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [RestAPI]" parallel="methods">
+  <test name="AllAPIMethods(failed)" parallel="methods">
+    <classes>
+      <class name="com.abhi.test.PutAPITest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.abhi.test.PutAPITest -->
+      <class name="com.abhi.test.DeleteAPITest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.abhi.test.DeleteAPITest -->
+      <class name="com.abhi.test.PostAPITest">
+        <methods>
+          <include name="postAPITest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.abhi.test.PostAPITest -->
+      <class name="com.abhi.test.GetAPITest">
+        <methods>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="clear"/>
+        </methods>
+      </class> <!-- com.abhi.test.GetAPITest -->
+    </classes>
+  </test> <!-- AllAPIMethods(failed) -->
+</suite> <!-- Failed suite [RestAPI] -->
